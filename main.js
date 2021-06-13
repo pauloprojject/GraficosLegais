@@ -1,7 +1,7 @@
 import './style.css'
 
 import * as THREE from 'three';
-import { Color, TorusGeometry } from 'three';
+import { Color, TorusGeometry } from 'https://cdn.skypack.dev/pin/three@v0.129.0-chk6X8RSBl37CcZQlxof/mode=imports/optimized/three.js';
 import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls';
 
 const scene = new THREE.Scene();
